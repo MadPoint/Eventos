@@ -1,0 +1,20 @@
+﻿@using MadPoint.BlogViewer.AppWeb.Resources
+@model MadPoint.BlogViewer.AppWeb.Models.ErrorModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/viewer.js"></script>
+    <title>Information</title>
+</head>
+<body>
+    <h1>@Viewer.InformationTitle</h1>
+    <p>@Model.ErrorMessage</p>
+</body>
+</html>

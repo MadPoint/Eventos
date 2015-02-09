@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="MadPointBlogViewerApp"
+     ProductID="{196008ce-4fd0-423f-9769-826e7858438f}"
+     Version="1.0.0.2"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <StartPage>~remoteAppUrl/?{StandardTokens}&amp;SPHostTitle={HostTitle}</StartPage>
+    <Title>$Resources:AppTitle;</Title>
+    <SupportedLocales>
+      <SupportedLocale CultureName="es-ES" />
+    </SupportedLocales>
+  </Properties>
+
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="*" />
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="Read" />
+  </AppPermissionRequests>
+</App>

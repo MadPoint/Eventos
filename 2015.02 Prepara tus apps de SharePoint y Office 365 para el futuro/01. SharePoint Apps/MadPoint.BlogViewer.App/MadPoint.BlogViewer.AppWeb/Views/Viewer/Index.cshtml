@@ -1,0 +1,35 @@
+﻿@using MadPoint.BlogViewer.AppWeb.Resources
+@model MadPoint.BlogViewer.AppWeb.Models.ViewerModel
+@{
+    Layout = null;
+    var blogTitle = Model.BlogTitle;
+    var blogEntries = Model.BlogEntries;
+    var blogUrl = Model.BlogUrl;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@blogTitle</title>
+    <script src="~/Scripts/viewer.js"></script>
+    <link href="~/Content/viewer.css" rel="stylesheet" />
+</head>
+<body>
+    <h1><a href="@blogUrl" target="_top" >@blogTitle</a></h1>
+    @if (blogEntries.Any())
+    { 
+        foreach(var entry in blogEntries)
+        {
+            var entryUrl = string.Format("{0}/Lists/EntradasDeBlog/Post.aspx?ID={1}", blogUrl, entry.Id);
+        <h2><a href="@entryUrl" target="_top" >@entry.Title</a></h2>
+        @entry.Content
+        <p>@entry.Author - @entry.Date</p>
+        <hr />
+        }
+    }
+    else
+    {
+        <p>@Viewer.NotEntriesForThisBlog</p>
+    }
+</body>
+</html>

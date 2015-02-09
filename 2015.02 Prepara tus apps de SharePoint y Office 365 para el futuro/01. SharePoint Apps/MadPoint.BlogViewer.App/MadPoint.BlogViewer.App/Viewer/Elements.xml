@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="$Resources:AppTitle;" Title="$Resources:AppTitle;" Description="$Resources:AppPartDescription;" DefaultWidth="300" DefaultHeight="500">
+
+    <!-- Content element identifies the location of the page that will render inside the client web part
+         Properties are referenced on the query string using the pattern _propertyName_
+         Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
+    <Content Type="html" Src="~remoteAppUrl/Viewer?{StandardTokens}&amp;blogUrl=_blogUrl_&amp;numberOfEntries=_numberOfEntries_&amp;entriesBodyMaxLength=_entriesBodyMaxLength_" />
+
+    <!-- Define properties in the Properties element.
+         Remember to put Property Name on the Src attribute of the Content element above. -->
+    <!-- https://msdn.microsoft.com/en-us/library/office/fp179921(v=office.15).aspx -->
+    <Properties>
+      <Property Type="string" 
+                Name="blogUrl" 
+                RequiresDesignerPermission="false" 
+                DefaultValue="$Resources:BlogUrlDefaultValue;" 
+                WebCategory="$Resources:PropertiesWebCategory;"
+                WebDisplayName="$Resources:BlogUrlDisplayName;"/>
+      <Property Type="int"
+                Name="numberOfEntries"
+                RequiresDesignerPermission="false"
+                DefaultValue="3"
+                WebCategory="$Resources:PropertiesWebCategory;"
+                WebDisplayName="$Resources:NumberOfEntriesDisplayName;"/>
+      <Property Type="int"
+                Name="entriesBodyMaxLength"
+                RequiresDesignerPermission="false"
+                DefaultValue="200"
+                WebCategory="$Resources:PropertiesWebCategory;"
+                WebDisplayName="$Resources:EntriesBodyMaxLengthDisplayName;"/>
+    </Properties>
+
+  </ClientWebPart>
+</Elements>

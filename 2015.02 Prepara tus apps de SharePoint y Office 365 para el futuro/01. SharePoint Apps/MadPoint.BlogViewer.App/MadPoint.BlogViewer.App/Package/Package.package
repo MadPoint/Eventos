@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="547b62b6-2570-42d2-a386-68463a07d34e" solutionId="547b62b6-2570-42d2-a386-68463a07d34e" resetWebServer="false" sharePointProductVersion="16.0" name="MadPoint.BlogViewer.App" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="8a8e88b8-6f45-4080-81c3-693144c27388" />
+  </features>
+</package>
