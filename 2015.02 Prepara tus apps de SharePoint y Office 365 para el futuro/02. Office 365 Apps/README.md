@@ -4,5 +4,5 @@
 
 Workshop basado en el material del DevCamp de Office: https://github.com/OfficeDev/DevCampTraining
 
-#Christian Ruiz López
+##Christian Ruiz López
 Es MAP y trabaja como Arquitecto SharePoint en Spenta y en su red social corporativa Beezy. Es coordinador de la Comunidad Técnica de SharePoint de Madrid (MadPoint). Puedes seguirle en su Twitter (@_christian_ruiz)
