@@ -6,14 +6,20 @@ Desde MadPoint (la Comunidad Técnica de SharePoint de Madrid) os proponemos un 
 
 ##Datos de interés
 -Audiencia: Desarrolladores y arquitectos de software.
+
 -Experiencia previa: Plataforma Office 365 y/o SharePoint 2013. Conocimiento de los conceptos básicos del modelo de apps de SharePoint.
+
 -Fecha: Jueves 5 de febrero de 2015.
+
 -Hora: 19:00 – 20:30 (GMT +1).
+
 -Lugar: Microsoft Ibérica (Paseo del Club Deportivo 1, Pozuelo de Alarcón, Madrid).
 
 ##Agenda
 -Introducción a las apps de SharePoint
+
 -Workshop: Desarrolla y publica en la tienda una App de SharePoint
+
 -Apps de Azure para Office 365 y diferencias
 
 
