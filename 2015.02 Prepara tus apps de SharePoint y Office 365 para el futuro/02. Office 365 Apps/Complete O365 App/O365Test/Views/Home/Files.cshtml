@@ -1,0 +1,36 @@
+﻿@model IEnumerable<O365Test.Models.MyFile>
+
+@{
+    ViewBag.Title = "Files";
+}
+
+<h2>Files</h2>
+
+<div>
+    @Html.ActionLink("Create New Project", "Projects")
+</div>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Url)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Url)
+        </td>
+
+    </tr>
+}
+
+</table>

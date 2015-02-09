@@ -1,0 +1,49 @@
+﻿@model IEnumerable<O365Test.Models.MyDiscovery>
+
+@{
+    ViewBag.Title = "Discoveries";
+}
+
+<h2>Discoveries</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Capability)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndpointUri)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ResourceId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Version)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Capability)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndpointUri)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ResourceId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Version)
+            </td>
+        </tr>
+    }
+
+</table>
+
+<div>
+    @Html.ActionLink("Get Contacts", "Contacts")
+</div>
