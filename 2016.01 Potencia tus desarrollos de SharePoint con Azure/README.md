@@ -23,10 +23,10 @@ Servicios como las web apps, Azure Search, Logic Apps, Media Services, Applicati
 ##Agenda
 16.00 – 16.15: Bienvenida e introducción
 16.15-16.50: Diseña tu propio Office 365 con Azure IaaS y PaaS
-*En esta sesión teórica, Miguel Tabera (MVP de Office Servers and Services) nos enseñará, desde el punto de vista de arquitectura, cómo es posible utilizar máquinas virtuales y servicios como las web apps, Azure Search, Media Services y Application Insights para diseñar nuestro propio servicio similar a Office 365 en el que proporcionemos SharePoint, Exchange, Office Vídeo, etc.
+-En esta sesión teórica, Miguel Tabera (MVP de Office Servers and Services) nos enseñará, desde el punto de vista de arquitectura, cómo es posible utilizar máquinas virtuales y servicios como las web apps, Azure Search, Media Services y Application Insights para diseñar nuestro propio servicio similar a Office 365 en el que proporcionemos SharePoint, Exchange, Office Vídeo, etc.
 17.00-17.50: Logic apps o el futuro de los flujos de trabajo
-*¿Qué son las logic apps? ¿Cómo las podemos utilizar? ¿Se convertirá en el motor para desarrollar nuestras lógicas de negocio y flujos de trabajo en el futuro? En esta sesión, Jose Carlos Rodríguez Avilés, nos enseñará qué podemos hacer con este servicio de Azure y cómo podemos usarlo para implementar lógicas de negocio interconectando entre si la amplia gama de herramientas que usamos hoy en día.
-18.00-18.50: Timerjobs y eventos en SharePoint Online usando Hangfire
-*Christian Ruiz nos mostrará un ejemplo práctico de cómo crear timerjobs y eventos remotos (evitando los límites de tiempo de SharePoint online) utilizando el motor de tareas programadas
+-¿Qué son las logic apps? ¿Cómo las podemos utilizar? ¿Se convertirá en el motor para desarrollar nuestras lógicas de negocio y flujos de trabajo en el futuro? En esta sesión, Jose Carlos Rodríguez Avilés, nos enseñará qué podemos hacer con este servicio de Azure y cómo podemos usarlo para implementar lógicas de negocio interconectando entre si la amplia gama de herramientas que usamos hoy en día.
+18.00-18.50: Timerjobs y eventos en SharePoint Online usando Hangfire--
+-Christian Ruiz nos mostrará un ejemplo práctico de cómo crear timerjobs y eventos remotos (evitando los límites de tiempo de SharePoint online) utilizando el motor de tareas programadas
 
 
