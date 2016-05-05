@@ -11,7 +11,7 @@ namespace Beezy.AzureML.Proxy.Controllers
 {
     public class ProxyController : ApiController
     {
-        // POST api/values
+        // POST api/proxy
         public HttpResponseMessage Post([FromBody]RequestInfo info)
         {
             var client = new WebClient();
